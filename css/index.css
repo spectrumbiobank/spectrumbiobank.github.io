@@ -55,6 +55,7 @@ body {
   font-family: 'Avenir Next Bold';
   margin-top: 150px;
   margin-bottom: 10px;
+  max-width: 500px;
 }
 
 .spb-welcome-text h4 {

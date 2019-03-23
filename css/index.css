@@ -40,6 +40,15 @@ body {
   width: 150px;
 }
 
+.spb .btn {
+  font-family: 'Avenir Next Medium';
+  display: block;
+  background-color: #EC6EAC;
+  border-color: #EC6EAC;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
 .spb-welcome {
   background-image: url("../images/helix_background.svg");
   background-size: 100% auto;
@@ -63,9 +72,9 @@ body {
   display: block;
   text-align: center;
   margin: auto;
-  font-size: 20px;
-  font-family: 'Avenir Next';
-  width: 400px;
+  font-size: 21px;
+  font-family: 'Avenir Next Regular';
+  width: 375px;
 }
 
 
@@ -76,13 +85,8 @@ body {
   max-width: 400px;
 }
 
-.spb-welcome-text button {
-  font-family: 'Avenir Next Regular';
-  display: block;
+.spb-welcome-text .btn {
   margin: 30px auto;
-  background-color: #EC6EAC;
-  border-color: #EC6EAC;
-  font-size: 18px;
 }
 
 .spb-welcome-connected img {
@@ -115,7 +119,7 @@ body {
 }
 
 .spb-pm .text-bottom {
-  font-family: 'Avenir Next';
+  font-family: 'Avenir Next Regular';
   font-size: 19px;
   color: #53585F;
   margin: 15px 0px 0px 0px;
@@ -157,7 +161,7 @@ body {
 }
 
 .spb-gap .text-bottom {
-  font-family: 'Avenir Next';
+  font-family: 'Avenir Next Regular';
   font-size: 19px;
   color: #FFFFFF;
   margin: 15px 0px 0px 30px;
@@ -209,13 +213,7 @@ body {
       color: #53585F;
 }
 
-.spb-mail .btn {
-  font-size: 18px;
-  font-family: 'Avenir Next';
-  background-color: #EC6EAC;
-  border: #EC6EAC;
-  color: #FFFFFF;
-}
+.spb-mail .btn {}
 
 .spb-mail #mce-EMAIL {
   font-family: 'Avenir Next';
@@ -259,7 +257,7 @@ footer h5 {
 
   .spb-welcome-text h4 {
     width: 90%;
-    font-size: 21px;
+    font-size: 19px;
   }
 
   .spb-welcome-text img {

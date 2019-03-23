@@ -213,6 +213,17 @@ body {
   font-family: 'Avenir Next';
   background-color: #EC6EAC;
   border: #EC6EAC;
+  color: #FFFFFF;
+}
+
+.spb-mail #mce-EMAIL {
+  font-family: 'Avenir Next';
+  font-size: 18px;
+  min-width: 200px;
+  border: black;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin: 0px 0px 1px 10px;
 }
 
 footer {

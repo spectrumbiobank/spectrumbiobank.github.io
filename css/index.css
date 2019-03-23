@@ -248,8 +248,7 @@ footer h5 {
 /* smaller than Desktop */
   {
   .spb-welcome {
-    background-image: none;
-    background: #120638;
+    background-size: cover;
   }
 
   .spb-welcome-text h3 {

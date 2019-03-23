@@ -175,6 +175,7 @@ body {
 
 .spb-mailnfooter {
   background-image: url('../images/helix_background.png');
+  background-size: cover;
 }
 
 .spb-mail {}

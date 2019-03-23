@@ -1,1 +1,164 @@
-Hi Bubba
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+
+  <title>Spectrum Biobank</title>
+</head>
+
+<body class="spb">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="images/SpectrumBiobankLogo.svg" class="d-inline-block" alt="">
+    </a>
+  </nav>
+  <div class="spb-welcome">
+    <div class="row">
+      <div class="spb-welcome-text col-lg-6">
+        <h3>The World's Only Diversity-First Genomic Database</h3>
+        <h4>We are a non-profit organization aiming to improve genetic research for people of all backgrounds.</h4>
+        <button type="button" class="btn btn-primary">Join Us</button>
+      </div>
+      <div class="spb-welcome-connected col-lg-6">
+        <img src="images/connected.svg"></img>
+      </div>
+    </div>
+  </div>
+
+  <div class="spb-pm container-fluid">
+    <div class="row">
+      <div class="col-lg-6 left">
+        <div class="text-top">In precision medicine, your data source is your destiny</div>
+        <div class="text-title">Precision medicine is limited to populations with large genetic data sets</div>
+        <div class="text-bottom">Genetic patterns vary widely between races & ethnic groups, which makes it difficult to make predictions for individuals who belong to populations that have not historically been included in genomic studies.</div>
+      </div>
+      <div class="col-lg-6 right">
+        <img src="images/ancestry_circle.png"></img>
+      </div>
+    </div>
+    <!--<img class="img-fluid" src="images/slides/Spectrum-BioBank-March-10.009.png"></img>-->
+    <!--<img class="img-fluid" src="images/slides/Spectrum-BioBank-March-10.004.png"></img>-->
+  </div>
+
+  <div class="spb-gap container-fluid">
+    <div class="text-top">If we don't act now</div>
+    <div class="text-title">The promise of precision medicine will leave most of us behind</div>
+    <div class="text-bottom">Today it's just a risk score, but tomorrow our genomes will determine the care we receive and the treatments we're prescribed</div>
+    <img id="spb_ancestry_thing" src="images/ancestry_thing.png"></img>
+  </div>
+
+  <!-- Subscribe to Mailing List -->
+  <div class="spb-mailnfooter container-fluid">
+  <div class="spb-mail container-fluid">
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="card col-sm-8">
+        <div class="card-body">
+          <h3 class="card-title">Keep up-to-date with Spectrum Biobank</h3>
+          <p class="card-text">We're on a mission to make sure genetic research can benefit people of all backgrounds.</p>
+          <form action="https://spectrumbiobank.us20.list-manage.com/subscribe/post" method="POST">
+            <input type="hidden" name="u" value="837c7072c34d9eeeb56fc85d7">
+            <input type="hidden" name="id" value="c9bdd5ee21">
+            <!-- people should not fill these in and expect good things -->
+            <div class="field-shift" style="left: -9999px; position: absolute;" aria-label="Please leave the following three fields empty">
+              <label for="b_name">Name: </label>
+              <input type="text" name="b_name" tabindex="-1" value="" placeholder="Freddie" id="b_name"
+                style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+              <label for="b_email">Email: </label>
+              <input type="email" name="b_email" tabindex="-1" value="" placeholder="youremail@gmail.com" id="b_email">
+              <label for="b_comment">Comment: </label>
+              <textarea name="b_comment" tabindex="-1" placeholder="Please comment" id="b_comment"></textarea>
+            </div>
+            <div id="mergeTable" class="mergeTable">
+              <div class="form-group">
+                <div class="mergeRow dojoDndItem mergeRow-email" id="mergeRow-0">
+                  <label for="MERGE0">Email</label>
+                  <div class="field-group">
+                    <input class="form-control" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+                  </div>
+                </div>
+              </div>
+              <!--
+              <div class="form-group">
+                <div id="interestTable">
+                  <div id="mergeRow-100-881" class="mergeRow dojoDndItem mergeRow-interests-checkboxes">
+                    <label>I'd like to:</label>
+                    <div class="field-group groups">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="group_1" name="group[881][1]" value="1" class="av-checkbox" checked><label class="form-check-label">stay informed</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="group_2" name="group[881][2]" value="1" class="av-checkbox"><label class="form-check-label">donate</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>-->
+
+              <button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i>Join Us</button>
+            </div>
+            <input type="hidden" name="ht" value="c107916d81759d7df0e91f125ccb2e3842b8c4d8:MTU1Mjg4MDE5My4yODc0">
+            <input type="hidden" name="mc_signupsource" value="hosted">
+          </form>
+        </div>
+      </div>
+
+      <div class="col-sm-2"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small blue pt-4">
+
+<!--
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <div class="col-md-8 mt-md-0 mt-3">
+          <h5 class="text-uppercase">About</h5>
+          <p>Spectrum Biobank is a registered 501c(3) non-profit.</p>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <div class="col-md-4 mb-md-0 mb-6">
+          <h5 class="text-uppercase">Social Media</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Facebook</a>
+            </li>
+            <li>
+              <a href="#!">Twitter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright
+      <a href="">Spectrum Biobank</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+</div>
+  <!-- Footer -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

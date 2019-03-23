@@ -1,0 +1,325 @@
+@font-face {
+  font-family: 'Avenir Next Regular';
+  src: url('../fonts/AvenirNext-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir Next Bold';
+  src: url('../fonts/AvenirNext-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir Next Medium';
+  src: url('../fonts/AvenirNext-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir Next DemiBold';
+  src: url('../fonts/AvenirNext-DemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir Next UltraLight';
+  src: url('../fonts/AvenirNext-UltraLight.ttf') format('truetype');
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+body {
+  background: #120638;
+  font-family: 'Avenir Next Regular';
+}
+
+.spb nav {
+  background-color: #120638 !important;
+}
+
+.spb .navbar img {
+  width: 150px;
+}
+
+.spb-welcome {
+  background-image: url("../images/helix_background.svg");
+  background-size: 100% auto;
+  font-family: 'Avenir Next Bold';
+}
+
+.spb-welcome-text h3 {
+  color: #FFFFFF;
+  display: block;
+  text-align: center;
+  margin: auto;
+  font-size: 29px;
+  font-family: 'Avenir Next Bold';
+  margin-top: 150px;
+  margin-bottom: 10px;
+}
+
+.spb-welcome-text h4 {
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  font-family: 'Avenir Next';
+  width: 400px;
+}
+
+
+
+.spb-welcome-text img {
+  display: block;
+  margin: auto;
+  max-width: 400px;
+}
+
+.spb-welcome-text button {
+  font-family: 'Avenir Next Regular';
+  display: block;
+  margin: 30px auto;
+  background-color: #EC6EAC;
+  border-color: #EC6EAC;
+  font-size: 18px;
+}
+
+.spb-welcome-connected img {
+  max-width: 400px;
+  margin: auto;
+  display: block;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.spb-slide {
+  margin: 0px;
+  padding: 0px;
+}
+
+.spb-pm {
+  background: #ffffff;
+}
+
+.spb-pm .text-top {
+  font-family: 'Avenir Next Bold';
+  font-size: 15px;
+  color: #EC6EAC;
+}
+
+.spb-pm .text-title {
+  font-family: 'Avenir Next Bold';
+  font-size: 31px;
+  color: #0D2562;
+}
+
+.spb-pm .text-bottom {
+  font-family: 'Avenir Next';
+  font-size: 19px;
+  color: #53585F;
+  margin: 15px 0px 0px 0px;
+}
+
+
+.spb-pm .left {
+  padding: 69px 30px 10px 30px;
+}
+
+.spb-pm .right {
+  padding: 30px 0px 30px 0px;
+}
+
+.spb-pm .right img {
+  width: 500px;
+  float: right;
+}
+
+.spb-gap {
+  background: #120638;
+  margin: 0px;
+  padding: 0px;
+}
+
+.spb-gap .text-top {
+  font-family: 'Avenir Next Bold';
+  font-size: 15px;
+  color: #4BA6E6;
+  margin: 40px 0px 0px 30px;
+}
+
+.spb-gap .text-title {
+  font-family: 'Avenir Next Bold';
+  font-size: 31px;
+  color: #FFFFFF;
+  margin: 0px 0px 0px 30px;
+  width: 500px;
+}
+
+.spb-gap .text-bottom {
+  font-family: 'Avenir Next';
+  font-size: 19px;
+  color: #FFFFFF;
+  margin: 15px 0px 0px 30px;
+  width: 500px;
+}
+
+.spb-gap #spb_ancestry_thing {
+  width: 100%;
+  margin: -200px 0px 0px 0px;
+}
+
+.spb-mailnfooter {
+  background-image: url('../images/helix_background.png');
+}
+
+.spb-mail {}
+
+.spb-mail .card {
+  margin: 80px auto;
+  font-family: 'Avenir Next Bold';
+  max-width: 500px;
+  padding: 20px 40px;
+  color: #0D2562;
+}
+
+.spb-mail .card-title {
+  margin-bottom: .75rem;
+  font-size: 26px;
+  font-family: 'Avenir Next Bold';
+}
+
+.spb-mail .card-text {
+  font-family: 'Avenir Next Regular';
+  font-size: 19px;
+  color: #53585F;
+  line-height: 24px;
+  margin: 0px 0px 10px 0px;
+}
+
+.spb-mail label {
+  font-family: 'Avenir Next DemiBold';
+  font-size: 22px;
+}
+
+.spb-mail #interestTable label {
+  font-family: 'Avenir Next Regular';
+      line-height: 7px;
+      font-size: 19px;
+      color: #53585F;
+}
+
+.spb-mail .btn {
+  font-size: 18px;
+  font-family: 'Avenir Next';
+  background-color: #EC6EAC;
+  border: #EC6EAC;
+}
+
+footer {
+  font-family: 'Avenir Next Regular';
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer .footer-copyright {}
+
+footer .footer-copyright a {}
+
+footer h5 {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 992px)
+/* smaller than Desktop */
+  {
+  .spb-welcome {
+    background-image: none;
+    background: #120638;
+  }
+
+  .spb-welcome-text h3 {
+    width: 90%;
+    margin-top: 120px;
+  }
+
+  .spb-welcome-text h4 {
+    width: 90%;
+    font-size: 21px;
+  }
+
+  .spb-welcome-text img {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+  }
+
+  .spb-welcome-connected img {
+    max-width: 336px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .spb-pm .text-top {
+    font-size: 20px;
+  }
+
+  .spb-pm .right img {
+    width: 99%;
+    max-width: 500px;
+  }
+
+  .spb-gap {
+    background: #120638;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .spb-gap .text-top {
+    font-family: 'Avenir Next Bold';
+    font-size: 15px;
+    color: #4BA6E6;
+    margin: 40px 0px 0px 30px;
+  }
+
+  .spb-gap .text-title {
+    width: 85%;
+  }
+
+  .spb-gap .text-bottom {
+    width: 85%;
+  }
+
+  .spb-gap #spb_ancestry_thing {
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+  }
+
+  .spb-mail .card {
+    padding: 20px 20px;
+  }
+
+  .spb-mail .card-title {
+    font-size: 24px;
+  }
+
+  .spb-mail .card-text {
+    font-size: 17px;
+    line-height: 26px;
+  }
+
+  .spb-mail label {
+    font-size: 20px;
+  }
+
+  .spb-mail #interestTable label {
+    font-size: 17px;
+  }
+
+  .spb-mail .btn {
+    font-size: 19px;
+  }
+}

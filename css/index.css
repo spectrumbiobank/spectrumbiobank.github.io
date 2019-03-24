@@ -85,8 +85,15 @@ body {
   max-width: 400px;
 }
 
+.spb-welcome .input-group {
+  font-family: 'Avenir Next Regular';
+  max-width: 350px;
+  margin: auto;
+  margin-top: 20px;
+}
+
 .spb-welcome-text .btn {
-  margin: 30px auto;
+
 }
 
 .spb-welcome-connected img {

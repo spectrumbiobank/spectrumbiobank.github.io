@@ -92,7 +92,13 @@ body {
   margin-top: 20px;
 }
 
+.spb-welcome .input-group ::placeholder {
+  color: #CCCCCC;
+}
+
 .spb-welcome-text .btn {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 
 }
 

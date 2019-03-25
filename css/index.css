@@ -205,60 +205,10 @@ body {
   margin: -200px 0px 0px 0px;
 }
 
-.spb-mailnfooter {
+footer {
   background-image: url('../images/helix_background.png');
   background-size: cover;
-}
-
-.spb-mail {}
-
-.spb-mail .card {
-  margin: 80px auto;
-  font-family: 'Avenir Next Bold';
-  max-width: 500px;
-  padding: 20px 40px;
-  color: #0D2562;
-}
-
-.spb-mail .card-title {
-  margin-bottom: .75rem;
-  font-size: 26px;
-  font-family: 'Avenir Next Bold';
-}
-
-.spb-mail .card-text {
-  font-family: 'Avenir Next Regular';
-  font-size: 19px;
-  color: #53585F;
-  line-height: 24px;
-  margin: 0px 0px 10px 0px;
-}
-
-.spb-mail label {
-  font-family: 'Avenir Next DemiBold';
-  font-size: 22px;
-}
-
-.spb-mail #interestTable label {
-  font-family: 'Avenir Next Regular';
-      line-height: 7px;
-      font-size: 19px;
-      color: #53585F;
-}
-
-.spb-mail .btn {}
-
-.spb-mail #mce-EMAIL {
-  font-family: 'Avenir Next';
-  font-size: 18px;
-  min-width: 200px;
-  border: black;
-  border: 1px solid #ced4da;
-  border-radius: 4px;
-  margin: 0px 0px 10px 0px;
-}
-
-footer {
+  padding: 0px 0px 20px 0px;
   font-family: 'Avenir Next Regular';
   color: #FFFFFF;
   font-size: 15px;
@@ -268,7 +218,9 @@ footer a {
   color: #FFFFFF;
 }
 
-footer .footer-copyright {}
+footer .footer-copyright {
+    margin: 50px 0px 00px 0px;
+}
 
 footer .footer-copyright a {}
 

@@ -318,15 +318,26 @@ footer h5 {
   }
 }
 
-/*
+// normal smartphones
 @media screen and (max-width: 414px) {
 
-  /* iPhone Plus and smaller */
   .spb-welcome #mc_embed_signup_scroll {
     max-width: 340px;
   }
 
   .spb-welcome input[type=email] {
     width: 180px;
+  }
+}
+
+// smaller smartphones
+@media screen and (max-width: 325px) {
+
+  .spb-welcome #mc_embed_signup_scroll {
+    max-width: 310px;
+  }
+
+  .spb-welcome input[type=email] {
+    width: 150px;
   }
 }

@@ -112,7 +112,7 @@ body {
 
 .spb-welcome #mc_embed_signup_scroll {
   margin: auto;
-  max-width: 365px;
+  max-width: 370px;
   margin-top: 15px;
   font-family: 'Avenir Next Regular';
 }
@@ -318,7 +318,6 @@ footer h5 {
   }
 }
 
-// normal smartphones
 @media screen and (max-width: 414px) {
 
   .spb-welcome #mc_embed_signup_scroll {
@@ -330,7 +329,7 @@ footer h5 {
   }
 }
 
-// smaller smartphones
+
 @media screen and (max-width: 325px) {
 
   .spb-welcome #mc_embed_signup_scroll {

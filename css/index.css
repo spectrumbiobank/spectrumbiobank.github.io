@@ -1,26 +1,26 @@
 @font-face {
   font-family: 'Avenir Next Regular';
-  src: url('../fonts/AvenirNext-Regular.ttf') format('truetype');
+  src: url('https://s3-us-west-1.amazonaws.com/spectrumbiobank892y739/v1/fonts/AvenirNext-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Avenir Next Bold';
-  src: url('../fonts/AvenirNext-Bold.ttf') format('truetype');
+  src: url('https://s3-us-west-1.amazonaws.com/spectrumbiobank892y739/v1/fonts/AvenirNext-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Avenir Next Medium';
-  src: url('../fonts/AvenirNext-Medium.ttf') format('truetype');
+  src: url('https://s3-us-west-1.amazonaws.com/spectrumbiobank892y739/v1/fonts/AvenirNext-Medium.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Avenir Next DemiBold';
-  src: url('../fonts/AvenirNext-DemiBold.ttf') format('truetype');
+  src: url('https://s3-us-west-1.amazonaws.com/spectrumbiobank892y739/v1/fonts/AvenirNext-DemiBold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Avenir Next UltraLight';
-  src: url('../fonts/AvenirNext-UltraLight.ttf') format('truetype');
+  src: url('https://s3-us-west-1.amazonaws.com/spectrumbiobank892y739/v1/fonts/AvenirNext-UltraLight.ttf') format('truetype');
 }
 
 body, html {
@@ -50,7 +50,7 @@ body {
 }
 
 .spb-welcome {
-  background-image: url("https://s3-us-west-1.amazonaws.com/spectrumbiobank892y739/helix_background.svg");
+  background-image: url("https://s3-us-west-1.amazonaws.com/v1/images/spectrumbiobank892y739/helix_background.svg");
   background-size: 100% auto;
   font-family: 'Avenir Next Bold';
 }
@@ -206,7 +206,7 @@ body {
 }
 
 footer {
-  background-image: url('https://s3-us-west-1.amazonaws.com/spectrumbiobank892y739/helix_background.png');
+  background-image: url('https://s3-us-west-1.amazonaws.com/v1/images/spectrumbiobank892y739/helix_background.png');
   background-size: cover;
   padding: 0px 0px 20px 0px;
   font-family: 'Avenir Next Regular';

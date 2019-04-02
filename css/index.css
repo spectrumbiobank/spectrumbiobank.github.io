@@ -50,7 +50,7 @@ body {
 }
 
 .spb-welcome {
-  background-image: url("../images/helix_background.svg");
+  background-image: url("https://s3-us-west-1.amazonaws.com/spectrumbiobank892y739/helix_background.svg");
   background-size: 100% auto;
   font-family: 'Avenir Next Bold';
 }
@@ -206,7 +206,7 @@ body {
 }
 
 footer {
-  background-image: url('../images/helix_background.png');
+  background-image: url('https://s3-us-west-1.amazonaws.com/spectrumbiobank892y739/helix_background.png');
   background-size: cover;
   padding: 0px 0px 20px 0px;
   font-family: 'Avenir Next Regular';

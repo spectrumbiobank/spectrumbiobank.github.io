@@ -1,4 +1,4 @@
 ### Todo
-1. add facebook analytics / ad kit with conversion tracking for getting an email address
+1 add in a/b testing framework to help with message testing
 
 ### Fit and finish

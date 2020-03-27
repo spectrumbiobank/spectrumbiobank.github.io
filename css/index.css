@@ -45,7 +45,7 @@ body {
   display: block;
   background-color: #EC6EAC;
   border-color: #EC6EAC;
-  font-size: 18px;
+  font-size: 16px;
   color: #FFFFFF;
 }
 
@@ -112,7 +112,7 @@ body {
 
 .spb-welcome #mc_embed_signup_scroll {
   margin: auto;
-  max-width: 370px;
+  max-width: 400pxpx;
   margin-top: 15px;
   font-family: 'Avenir Next Regular';
 }
